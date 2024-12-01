@@ -1,0 +1,59 @@
+﻿  Source.cpp
+C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Mira.h(21,77): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Mira.h(21,77): warning C4244:         with
+C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Mira.h(21,77): warning C4244:         [
+C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Mira.h(21,77): warning C4244:             T=unsigned int
+C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Mira.h(21,77): warning C4244:         ]
+  (compilando archivo de origen "Source.cpp")
+  
+C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Mira.h(21,48): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Mira.h(21,48): warning C4244:         with
+C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Mira.h(21,48): warning C4244:         [
+C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Mira.h(21,48): warning C4244:             T=unsigned int
+C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Mira.h(21,48): warning C4244:         ]
+  (compilando archivo de origen "Source.cpp")
+  
+C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Personaje.h(32,27): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  (compilando archivo de origen "Source.cpp")
+  
+C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Personaje.h(32,22): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  (compilando archivo de origen "Source.cpp")
+  
+C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Ovni.h(20,41): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Source.cpp")
+  
+C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Ovni.h(27,45): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Source.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(700,103): warning C4244: 'argumento': conversión de '_Ty' a 'float'; posible pérdida de datos
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(700,103): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(700,103): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(700,103): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(700,103): warning C4244:         ]
+  (compilando archivo de origen "Source.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(700,103):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Source.cpp(139,26):
+          Vea la referencia a la creación de una instancia de la función plantilla "void std::vector<Ovni,std::allocator<Ovni>>::emplace_back<sf::Texture&,double>(sf::Texture &,double &&)" que se está compilando
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(858,24):
+          Vea la referencia a la creación de una instancia de la función plantilla "_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<sf::Texture&,double>(sf::Texture &,double &&)" que se está compilando
+          with
+          [
+              _Ty=Ovni
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(776,20):
+          Vea la referencia a la creación de una instancia de la función plantilla "_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<sf::Texture&,double>(sf::Texture &,double &&)" que se está compilando
+          with
+          [
+              _Ty=Ovni
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(794,27):
+          Vea la referencia a la creación de una instancia de la función plantilla "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,sf::Texture&,double>(_Alloc &,_Objty *const ,sf::Texture &,double &&)" que se está compilando
+          with
+          [
+              _Alloc=std::allocator<Ovni>,
+              _Ty=Ovni,
+              _Objty=Ovni
+          ]
+  
+  El pistolero trabajo final MAV1.vcxproj -> C:\Users\minic\source\repos\El pistolero trabajo final MAV1\Debug\El pistolero trabajo final MAV1.exe
